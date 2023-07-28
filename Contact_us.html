@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Contact_us</title>
+    <style>
+        img{
+            width:100%;
+        }
+
+        #one{
+            float:right;
+            background-color: #807c7c;
+            padding-left: 400px;
+            padding-top: 80px;
+            margin-right: 50px;
+        }
+
+        #two {
+            width:350px;
+            height:260px;
+            background-color: lightblue;
+            float:left;
+            margin-left: 240px;
+            margin-top: 30px;
+            z-index: 9;
+            position: absolute;
+            padding: 10px;
+            padding-top: 20px;
+        }
+
+        #three {
+            width:350px;
+            height:260px;
+            background-color: yellowgreen;
+            float:left;
+            margin-left: 240px;
+            margin-top: 310px;
+            z-index: 9;
+            position: absolute;
+            padding: 10px;
+            padding-top: 20px;
+        }
+
+        #four {
+            width:350px;
+            height:250px;
+            background-color: yellowgreen;
+            float:left;
+            margin-left: 240px;
+            margin-top: 590px;
+            z-index: 9;
+            position: absolute;
+            padding: 30px;
+
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar bg-primary" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar scroll</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="About_us.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        About us
+                    </a>
+                    /*<ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>*/
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Contact Us</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<SPAN id="two">
+    <h3>HAPPY CUSTOMERS</h3>
+    Happy customers care for you just the way you care for them. They travel with you in your growth journey.<br>
+    <input type="button" value="LEARN MORE">
+</SPAN>
+
+<span id="three">
+    <h3>CLOUD SOLUTION</h3>
+    Cloud services facilitate the flow of user data from front-end clients, through the internet, to the provider's systems, and back. Cloud services promote the building of cloud-native applications and the flexibility of working in the cloud.
+    <br><input type="button" value="LEARN MORE">
+</span>
+
+<span id="four">
+    <h3>OUR MAIN OFFICE</h3>
+    Web security refers to protecting networks and computer systems from damage to or the theft of software, hardware, or data
+</span>
+<div id="one" style="width:1000px;height:800px" >
+    <h1> CONTACT US</h1><br>   <br>
+    <form>
+        <input type="text" placeholder="Enter your name" class="form" size="50"><br>  <br>
+        <input type="text" placeholder="Enter a valid email address" width="150px" class="form" size="50"><br>  <br>
+        <textarea height="100px" width="100px" placeholder="write any query or comment(OPTIONAL)" class="form" size="50"></textarea>
+       <br>
+        <input type="reset" value="Submit">
+    </form>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
